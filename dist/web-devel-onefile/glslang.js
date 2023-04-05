@@ -46,12 +46,12 @@ if(d.preInit)for("function"==typeof d.preInit&&(d.preInit=[d.preInit]);0<d.preIn
 }
 );
 })();
-if (typeof exports === 'object' && typeof module === 'object')
-      module.exports = Module;
-    else if (typeof define === 'function' && define['amd'])
-      define([], function() { return Module; });
-    else if (typeof exports === 'object')
-      exports["Module"] = Module;
+// if (typeof exports === 'object' && typeof module === 'object')
+//       module.exports = Module;
+//     else if (typeof define === 'function' && define['amd'])
+//       define([], function() { return Module; });
+//     else if (typeof exports === 'object')
+//       exports["Module"] = Module;
     export default (() => {
     const initialize = () => {
         return new Promise(resolve => {
